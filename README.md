@@ -1,29 +1,37 @@
 # NLP Models and BERT
 
+This project explores different NLP models and discusses the capabilities and applications of Google's BERT (Bidirectional Encoder Representations from Transformers) model.
+
+
 ## Task 22 - Capstone Task
 
 ## Email Categorisation
-A model that allocates which mail folder an email should be sent to (work, friends, promotions, important), like Gmail's inbox tabs.
 
-**Answer**: Text classification would be used for email categorisation. This involves assigning pre-defined categories or labels to a given text document (email).
+A model is developed to allocate emails to specific mail folders (e.g., work, friends, promotions, important) similar to Gmail's inbox tabs. This task can be accomplished using text classification techniques. Text classification involves assigning predefined categories or labels to a given text document (email) based on its content.
 
 ## Essay Grading Model
-A model that helps decide what grade to award to an essay question. This can be used by a university professor who grades a lot of classes or essay competitions.
 
-**Answer**: A supervised learning method would be used for this, as the program learns from examples that have had the right answers assigned to them beforehand. This will help grade the essay based on the students' answers against previous/assigned correct answers.
+A model is designed to assist university professors or essay competition organisers in grading essay questions. This model utilises supervised learning techniques where the program learns from examples that have had the correct grades assigned to them beforehand. By comparing students' answers to previous or assigned correct answers, the model can assign appropriate grades to essay questions.
+
 
 ## Assistive Diagnosis Model for Doctors
-A model that provides assistive technology for doctors to provide their diagnosis. Remember, doctors ask questions, so the model will use the patients' answers to provide a probable diagnosis for the doctor to weigh and make decisions.
 
-**Answer**: A Question Answering model would help assist the doctor in providing multiple diagnoses depending on the patient's answers to the doctor's questions.
+A model is developed to provide assistive technology for doctors in making diagnoses. The model uses the patients' answers to questions posed by the doctor to provide probable diagnoses. This task can be accomplished using a question-answering model. The model leverages the patients' answers to the doctors' questions to generate multiple potential diagnoses, which the doctor can then evaluate and make decisions based on.
 
 ## Google's BERT (Bidirectional Encoder Representations from Transformers)
-Google's BERT is a pre-trained language model that is capable of understanding the context and meaning of language to a high degree, which has made it a popular choice for a variety of NLP tasks.
 
-BERT is capable of understanding language in a more complex manner than previous models, as it is pre-trained on a large corpus of text data, which allows it to understand how language is used in context. This allows BERT to perform a wide range of NLP tasks, including question-answering, text classification, and language translation, among others.
+Google's BERT is a pre-trained language model that excels in understanding the context and meaning of language. It has become a popular choice for various natural language processing (NLP) tasks due to its ability to comprehend language in a highly sophisticated manner.
 
-One of the key features of BERT is its use of a transformer architecture. This allows BERT to process text in both directions from left to right and right to left, which helps it to better understand the relationships between words and sentences. Additionally, BERT is able to use context to inform its understanding of the language, which makes it particularly effective at tasks such as text completion or understanding the meaning of vague words or phrases.
+Key features of BERT include:
 
-Google has used BERT in a variety of applications, including search, where it helps to deliver more relevant search results by understanding the meaning behind search queries. Additionally, BERT has been used in Google's Smart Reply feature, which is similar to the Gmail auto-response suggestions. Smart Reply suggests responses to messages based on their content, allowing users to quickly and easily respond to messages without having to type out a response.
+Contextual Understanding: BERT is pre-trained on a vast corpus of text data, enabling it to understand how language is used in different contexts. This contextual understanding empowers BERT to excel in a wide range of NLP tasks, such as question-answering, text classification, and language translation.
+Transformer Architecture: BERT employs a transformer architecture, enabling it to process text bidirectionally, from both left to right and right to left. This comprehensive understanding of word and sentence relationships enhances its language comprehension capabilities. Additionally, BERT utilises context to interpret vague words or phrases and perform tasks like text completion effectively.
+BERT has been utilised by Google in several applications:
 
-Overall, BERT is an innovative technology that has significantly advanced the state of the art in NLP. Its ability to understand language in context has made it a popular choice for a wide range of applications, and its use of transformer architecture has helped to improve the accuracy of NLP models.
+Search: BERT enhances search results by comprehending the meaning behind search queries. This improves the relevance of search results by considering the context and nuances of the search terms.
+Smart Reply: BERT powers Google's Smart Reply feature, similar to Gmail's auto-response suggestions. It suggests relevant responses to messages based on their content, allowing users to respond quickly and effortlessly without typing a response from scratch.
+BERT's innovative technology has significantly advanced the field of NLP. Its contextual understanding and transformer architecture have made it a preferred choice for various applications. The model's impact can be observed in improved search results and efficient email response suggestions.
+
+Conclusion
+
+This project explores different NLP models, such as email categorisation, essay grading, and doctor's diagnosis assistant. Additionally, it highlights the capabilities and applications of Google's BERT model, which has revolutionised NLP tasks with its contextual understanding and transformer architecture.
